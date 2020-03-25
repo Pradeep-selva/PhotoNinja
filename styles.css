@@ -1,0 +1,15 @@
+#photos{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+header{
+    background: url("img/man.jpg");
+    background-size: cover;
+    background-position:center ;
+    min-height: 920px;
+}
+@media screen and (max-width: 670px) {
+    header{
+        min-height:670px;
+    }      
+}
